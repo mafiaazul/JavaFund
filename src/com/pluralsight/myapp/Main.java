@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         String[] statements = {
-                "add 1.0" ,              // Error: incorrect number of values
+                "add 1.0" , // test s              // Error: incorrect number of values
                 "add 2.0",
                 "add xx 25.0",          // Error: non-numeric data
                 "addX 0.0 0.0",         // Error: invalid command
